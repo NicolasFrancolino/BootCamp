@@ -1,0 +1,7 @@
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.AssemblyReference.cache
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.CoreCompileInputs.cache
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+D:\BootCamp_C#\Semana 2\Dia 1\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
