@@ -1,0 +1,8 @@
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.exe.config
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.exe
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\bin\Debug\ConsoleApp10.pdb
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.csproj.AssemblyReference.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.csproj.SuggestedBindingRedirects.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.csproj.CoreCompileInputs.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.exe
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia 1\ConsoleApp10\ConsoleApp10\obj\Debug\ConsoleApp10.pdb

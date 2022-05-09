@@ -1,0 +1,8 @@
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\bin\Debug\ParPrograming.exe.config
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\bin\Debug\ParPrograming.exe
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\bin\Debug\ParPrograming.pdb
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\obj\Debug\ParPrograming.csproj.AssemblyReference.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\obj\Debug\ParPrograming.csproj.SuggestedBindingRedirects.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\obj\Debug\ParPrograming.csproj.CoreCompileInputs.cache
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\obj\Debug\ParPrograming.exe
+C:\Users\Welt\Desktop\Bootcamp\Semana 1\Dia3\ParPrograming\ParPrograming\obj\Debug\ParPrograming.pdb

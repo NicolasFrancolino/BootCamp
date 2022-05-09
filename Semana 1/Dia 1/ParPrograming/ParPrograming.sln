@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParPrograming", "ParPrograming\ParPrograming.csproj", "{92EA9902-8691-4A84-B80C-7D9982FD09CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EA9902-8691-4A84-B80C-7D9982FD09CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EA9902-8691-4A84-B80C-7D9982FD09CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EA9902-8691-4A84-B80C-7D9982FD09CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EA9902-8691-4A84-B80C-7D9982FD09CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902194A4-2B6D-410C-B720-0C5139BB6F3D}
+	EndGlobalSection
+EndGlobal
