@@ -11,7 +11,7 @@ namespace ConsoleApp5.Class
         
         public override void comer()
         {
-            Console.WriteLine("Comiendo");
+            Console.WriteLine("COMIENDO");
 
         }
     }

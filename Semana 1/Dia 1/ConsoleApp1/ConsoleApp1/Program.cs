@@ -11,7 +11,7 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            Console.WriteLine("INSERT NUMBER:");
+            Console.Write("INSERT NUMBER:");
             try
             {
                 int _dataNumber = Convert.ToInt32(Console.ReadLine());

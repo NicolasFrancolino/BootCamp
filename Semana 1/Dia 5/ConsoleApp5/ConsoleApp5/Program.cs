@@ -12,7 +12,11 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
             Perro perro = new Perro();
-            perro.comer();
+            Console.Write("COMO SE LLAMA TU PERRO: ");
+            string nombre = Console.ReadLine(); 
+            perro.SetNombre(nombre);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write($"{perro.GetNombre()} ESTA ");perro.comer();
             Console.ReadKey();
         }
     }

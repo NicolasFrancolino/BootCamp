@@ -1,0 +1,7 @@
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\obj\Debug\PatrondeDiseño.csproj.AssemblyReference.cache
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\obj\Debug\PatrondeDiseño.csproj.CoreCompileInputs.cache
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\bin\Debug\PatrondeDiseño.exe.config
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\bin\Debug\PatrondeDiseño.exe
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\bin\Debug\PatrondeDiseño.pdb
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\obj\Debug\PatrondeDiseño.exe
+D:\BootCamp_C#\Semana 2\Dia 2\PatrondeDiseño\PatrondeDiseño\obj\Debug\PatrondeDiseño.pdb

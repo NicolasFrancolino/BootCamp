@@ -1,0 +1,10 @@
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\bin\Debug\Database1.dacpac
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\Database1.sqlproj.AssemblyReference.cache
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\Model.xml
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\refactor.xml
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\postdeploy.sql
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\predeploy.sql
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\Database1.dll
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\obj\Debug\Database1.pdb
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\bin\Debug\Database1.dll
+D:\BootCamp_C#\Semana 2\Dia 3\Database1\Database1\bin\Debug\Database1.pdb

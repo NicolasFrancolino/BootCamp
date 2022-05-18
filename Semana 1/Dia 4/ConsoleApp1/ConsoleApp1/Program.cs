@@ -11,14 +11,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Persona[] Array = new Persona[3];
-
-            for ( int item = 0; item < Array.Length; item++)
-            {
-                Console.Write("INGRESE NOMBRE: ");
-                Array[item].ToString();
-            }            
+            Persona objPersona = new Persona();
+            string dato;
+            Console.Write("INGRESE UNA PERSONA:");
+            dato = Console.ReadLine();
+            objPersona.setPersona(new Persona(dato));
+            Console.WriteLine($"LA PERSONA ES: {objPersona.ToString()}");
             Console.ReadKey();
+        
+                  
         }
         
     }

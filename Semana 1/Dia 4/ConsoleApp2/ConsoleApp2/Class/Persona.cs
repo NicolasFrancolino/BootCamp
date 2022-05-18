@@ -17,11 +17,9 @@ namespace ConsoleApp2.Class
             Age = age;
             Dni = dni;
         }
-        public void Show()
+        public void getData()
         {
-            Console.WriteLine($"{Name}");
-            Console.WriteLine($"{Age}");
-            Console.WriteLine($"{Dni}");
+            Console.Write($"Nombre: {Name}, edad:{Age}, numero de doc: {Dni}");
         }
         public bool isAdult()
         {

@@ -6,21 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3.Class
 {
-    public  class Cuenta 
+   public  class Cuenta 
     {
-        public static object titular;
-
+        
         public Persona Titular { get; set; }
-        public decimal Cantidad { get; set; }
+        public double Cantidad { get; set; }
 
-        public Cuenta(Persona titular, decimal cantidad)
+        public Cuenta(Persona titular, double cantidad)
         {
             Titular = titular;
             Cantidad = cantidad;
         }
-       public static void Show()
+       public static void getData()
         {
-            Console.Write($"{titular}");|
+            Console.WriteLine($"{}"); 
         }
     }
 }

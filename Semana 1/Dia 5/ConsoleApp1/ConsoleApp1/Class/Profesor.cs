@@ -8,11 +8,11 @@ namespace ConsoleApp1.Class
 {
     public class Profesor : Persona
     {
-        
-        public  void Explicar()
-        {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("ESTOY EXPLICANDO");
-        }
+
+        public string Explicar() => "EXPLICANDO";
+       
+          
+       
+       
     }
 }

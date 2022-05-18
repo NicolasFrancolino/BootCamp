@@ -11,13 +11,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Persona persona = new Persona();
             Estudiante estudiante = new Estudiante();
             Profesor profesor = new Profesor();
 
-            persona.Saludar();
-            estudiante.Estudiar();
-            profesor.Explicar();
+            Console.Write("CUAL ES LA EDAD DEL ESTUDIANDTE:");
+            int edad = Convert.ToInt32(Console.ReadLine());
+            estudiante.setEdad(edad);
+            Console.WriteLine($"EL ESTUDIANTE ESTA{estudiante.Estudiar()} Y SU EDAD ES {estudiante.verEdad()}");
+            
+            Console.WriteLine($"EL PROFESOR ESTA {profesor.Explicar()}");
             Console.ReadKey();
         }
     }

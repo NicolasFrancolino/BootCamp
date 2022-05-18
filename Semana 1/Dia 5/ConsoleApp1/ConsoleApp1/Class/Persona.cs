@@ -8,16 +8,15 @@ namespace ConsoleApp1.Class
 {
     public class Persona
     {
-       /* public int Edad { get; set; }
-
+        public int edad { get; set; }
         public Persona(int edad)
         {
-            Edad = edad;
-        }*/
-        public  void setEdad(int edad)
+           this.edad = edad;
+        }
+        public Persona() {}
+        public void setEdad(int dato)
         {
-            Console.WriteLine("QUE EDAD TIENE:");
-            edad = Convert.ToInt32(Console.ReadLine());
+          edad = dato;
         }
         public void Saludar()
         {

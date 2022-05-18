@@ -16,6 +16,7 @@ namespace ConsoleApp3.Class
             Nombre = nombre;
             Dni = dni;
         }
+        public Persona() { }
 
     }
 }

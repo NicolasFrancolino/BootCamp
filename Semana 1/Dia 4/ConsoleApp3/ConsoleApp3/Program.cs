@@ -11,31 +11,15 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Persona persona = new Persona("lucas", 35336675);
-            Cuenta obj = new Cuenta(persona);
-            obj.Show();
+            Persona persona = new Persona();
+            Cuenta cuenta = new Cuenta(persona, 30.000);
+           
+            Console.ReadKey();
+
 
         }
-     /*     
-           class Cuenta : Persona
-        {
-            public double Cantidad { get; set; }
-            public Persona Titular { get; set; }
-
-            public Cuenta(Persona titular, double cantidad)
-            {
-                Titular = titular;
-                Cantidad = cantidad;
-            }
-
-            public void mostrar()
-            {
-                Console.WriteLine("el nombre de esta persona es " + Nombre);
-                Console.WriteLine("la edad es " + Edad);
-                Console.WriteLine("el Dni es " + Dni);
-            }*/
-
-
+     
     }
- }
+}
+ 
 

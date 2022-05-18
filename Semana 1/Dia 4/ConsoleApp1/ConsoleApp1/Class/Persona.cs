@@ -8,17 +8,21 @@ namespace ConsoleApp1.Class
 {
     public class Persona
     {
-        private readonly string nombre;
+        private string nombre;
 
         public Persona(string nombre)
         {
-            this.nombre = nombre;
+            this.Nombre = nombre;
         }
-        public override string ToString()
+        public Persona() { }
+        public string Nombre { get => nombre; set => nombre = value; }
+
+        public override string ToString() => Nombre;
+
+        List<Persona> list = new List<Persona>();
+        public void setPersona(Persona persona)
         {
-            return nombre.ToString();
+            if (nombre != null)   list.Add();    
         }
-
-    }
-
+    } 
 }
