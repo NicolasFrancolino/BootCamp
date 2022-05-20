@@ -1,0 +1,73 @@
+﻿@model List<ConcesionariaApp.Models.Vehiculo>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row" style="margin-top:30px;">
+
+    <div class="col-sm-12">
+
+        <!-- INICIO DEL PANEL -->
+        <div class="panel panel-warning">
+
+            <div class="panel-heading">
+
+                <h4>Lista de Autos</h4>
+
+            </div>
+
+            <div class="panel-body">
+
+                <a class="btn btn-primary" href="@Url.Action()">Agregar Automovil</a>
+                <hr />
+
+                <div class="table-responsive">
+
+                    <table class="table table-striped">
+                        <!-- CABECERA DE LA TABLA-->
+                        <thead>
+                            <tr>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>AÃ±o</th>
+                                <th>Kilometro</th>
+                                <th>Precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <!-- CUERPO DE LA TABLA -->
+                        <tbody>
+                            @foreach (ConcesionariaApp.Models.Vehiculo item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Marca</td>
+                                    <td>@item.Modelo</td>
+                                    <td>@item.year</td>
+                                    <td>@item.Kilometros</td>
+                                    <td>@item.Precio</td>
+                                    <td>
+                                        <a class="btn btn-success btn-sm" href="@Url.Action()">Editar</a>
+
+                                        <a class="btn btn-danger btn-sm" href="@Url.Action()">Eliminar</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- FIN DEL PANEL -->
+
+    </div>
+
+</div>
+
+
