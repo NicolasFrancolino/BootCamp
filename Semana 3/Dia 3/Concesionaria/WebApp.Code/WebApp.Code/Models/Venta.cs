@@ -5,6 +5,7 @@ namespace WebApp.Code.Models
 {
     public class Venta
     {
+        
         [Key]
         public int IdVenta { get; set; }
      //-------------------------------------

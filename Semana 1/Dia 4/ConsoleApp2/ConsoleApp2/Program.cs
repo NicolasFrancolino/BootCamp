@@ -11,10 +11,23 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Persona persona = new Persona("LUCAS", 32, 35336675);
+
+            Persona persona = new Persona();
+            Console.Write("CUAL ES EL NOMBRE DE LA PERSONA:");
+            string name = Console.ReadLine();
+            Console.Write("CUAL ES LA EDAD:");
+            int age = int.Parse(Console.ReadLine());
+            Console.Write("CUAL ES EL NUMERO DE DOC:");
+            int dni = int.Parse(Console.ReadLine());
+            persona.setData(name, age, dni);
+            Console.Clear();
             persona.getData();
-            Console.WriteLine($"\nEs adulto:{persona.isAdult()}");
+            Console.ForegroundColor= ConsoleColor.Red;
+            if (!persona.isAdult()==false)
+                Console.WriteLine("ES ADULTO");
+               else Console.WriteLine("ES MENOR");
             Console.ReadKey();
+
         }
         
         

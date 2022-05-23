@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="ModelDataBase.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="ModelDataBaseTargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelDataBase" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelDataBaseContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="VehiculoSet" EntityType="ModelDataBase.Vehiculo" />
+          <EntitySet Name="ClienteSet" EntityType="ModelDataBase.Cliente" />
+          <EntitySet Name="VentaSet" EntityType="ModelDataBase.Venta" />
+          <AssociationSet Name="ClienteVenta" Association="ModelDataBase.ClienteVenta">
+            <End Role="Cliente" EntitySet="ClienteSet" />
+            <End Role="Venta" EntitySet="VentaSet" />
+          </AssociationSet>
+          <AssociationSet Name="VehiculoVenta" Association="ModelDataBase.VehiculoVenta">
+            <End Role="Vehiculo" EntitySet="VehiculoSet" />
+            <End Role="Venta" EntitySet="VentaSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Vehiculo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Marca" Type="String" Nullable="false" />
+          <Property Name="M" Type="String" Nullable="false" />
+          <Property Name="Property2" Type="String" Nullable="false" />
+          <Property Name="Property3" Type="String" Nullable="false" />
+          <NavigationProperty Name="Venta" Relationship="ModelDataBase.VehiculoVenta" FromRole="Vehiculo" ToRole="Venta" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Apellido" Type="String" Nullable="false" />
+          <Property Name="Dirrection" Type="String" Nullable="false" />
+          <Property Name="Dni" Type="String" Nullable="false" />
+          <NavigationProperty Name="Venta" Relationship="ModelDataBase.ClienteVenta" FromRole="Cliente" ToRole="Venta" />
+        </EntityType>
+        <EntityType Name="Venta">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Property3" Type="String" Nullable="false" />
+          <Property Name="Property4" Type="String" Nullable="false" />
+          <Property Name="Property5" Type="String" Nullable="false" />
+          <NavigationProperty Name="Cliente" Relationship="ModelDataBase.ClienteVenta" FromRole="Venta" ToRole="Cliente" />
+          <Property Name="ClienteID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Vehiculo" Relationship="ModelDataBase.VehiculoVenta" FromRole="Venta" ToRole="Vehiculo" />
+          <Property Name="VehiculoID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="ClienteVenta">
+          <End Type="ModelDataBase.Cliente" Role="Cliente" Multiplicity="1" />
+          <End Type="ModelDataBase.Venta" Role="Venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Venta">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="VehiculoVenta">
+          <End Type="ModelDataBase.Vehiculo" Role="Vehiculo" Multiplicity="1" />
+          <End Type="ModelDataBase.Venta" Role="Venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vehiculo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Venta">
+              <PropertyRef Name="VehiculoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="ModelDataBase" />
+        <Alias Key="Target" Value="ModelDataBase.Store" />
+        <EntityContainerMapping CdmEntityContainer="ModelDataBaseContainer" StorageEntityContainer="ModelDataBaseTargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
